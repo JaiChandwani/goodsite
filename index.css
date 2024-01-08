@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+    background-color: #9932CC;
+    display: flex;
+    flex-wrap: wrap     ;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: auto;
+}
+
+
+
+.ask{
+    font-size: 300%;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20%;
+    color: #9932CC;
+}
+.tenor-gif-embed{
+  position: relative;
+  left: 0%;
+}
+.noBtn:hover{
+ /* visibility: hidden; */
+ animation: noBtnAnimation 0.1s 1 linear ;
+ 
+}
+.noBtn{
+    position: relative;
+    transition-property: left;
+    transition-duration: 0.5s;
+}
+
+.btnGroup{
+    display: flex;
+    justify-content: center;
+}
+.btnGroup button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    margin: 0% 2%;
+    width: 25%;
+    height: 7vh;
+    border: #9932CC;
+    background-color: #9932CC;
+    color: white;
+   
+}
+
+.card{
+    background-color: white;
+    padding: 10%;
+    border-radius: 10%;
+}
+
+.call{
+    visibility:collapse;
+   
+}
+.call a{
+    text-decoration: none;
+    color: white;
+}
